@@ -1,0 +1,55 @@
+#photo {
+  background: black;
+  color: white;
+  .item {
+    height: 300px;
+    transition: transform 0.4s cubic-bezier(0,-0.01,0,.99);
+    z-index: 1;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    &:hover {
+      transform: scale(1.03, 1.03);
+      box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.51);
+      z-index: 2;
+      &:after {
+        display: none;
+      }
+    }
+  }
+  .photos-1 {
+    background-image: url(/assets/images/gallery/1.jpg);
+  }
+  .photos-2 {
+    background-image: url(/assets/images/gallery/2.jpg);
+  }
+  .photos-3 {
+    background-image: url(/assets/images/gallery/3.jpg);
+  }
+  .photos-4 {
+    background-image: url(/assets/images/gallery/4.jpg);
+  }
+  .photos-5 {
+    background-image: url(/assets/images/gallery/5.jpg);
+  }
+  .photos-6 {
+    background-image: url(/assets/images/gallery/6.jpg);
+  }
+  .photos-7 {
+    background-image: url(/assets/images/gallery/7.jpg);
+  }
+  .photos-8 {
+    background-image: url(/assets/images/gallery/8.jpg);
+  }
+  .photos-9 {
+    background-image: url(/assets/images/gallery/9.jpg);
+  }
+}

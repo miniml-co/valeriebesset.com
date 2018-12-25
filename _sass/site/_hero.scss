@@ -1,0 +1,90 @@
+#hero {
+  height: 100vh;
+  background-image: url(/assets/images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  .fixed-nav {
+    text-align: right;
+    padding: 40px 7%;
+    margin: auto;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    .brand {
+      position: absolute;
+      display: block;
+      .image {
+        height: 20px;
+        width: 20px;
+      }
+    }
+    ul {
+      li {
+        display: inline;
+        margin-left: 50px;
+        a {
+          color: white;
+          text-decoration: none;
+          opacity: .6;
+          line-height: 25px;
+          font-family: Montserrat;
+          font-size: 14px;
+          font-weight: 600;
+          transition: all .23s ease;
+          &:hover {
+            opacity: 1;
+          }
+        }
+        .active {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .inner-panel {
+    height: 231px;
+    width: 590px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    left: 7%;
+    bottom: 25%;
+    h1, h3 {
+      color: white;
+    }
+    .button-row {
+      margin-top: 60px;
+      a {
+        padding: 15px 0;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 100px;
+        background-color: #2196f3;
+        box-shadow: 0 0 30px 8px rgba(0, 97, 174, 0.55);
+        margin-right: 50px;
+        width: 180px;
+        transition: all .23s ease-out;
+        text-align: center;
+        img {
+          height: 10px;
+        }
+        &:focus {
+          background: #0871C5;
+        }
+        &:hover {
+          background-color: #2185d4;
+        }
+      }
+      .no-margin {
+        margin: 0;
+      }
+    }
+  }
+}

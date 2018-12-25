@@ -1,0 +1,71 @@
+#about {
+  padding: 160px 7% 180px 7%;
+  .tile {
+    padding: 0 50px;
+    .icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 5px;
+      position: relative;
+      top: 0;
+      transition: all .23s ease-out;
+      &:hover {
+        top: -4px;
+      }
+      .img {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    .bullseye {
+      background-image: url(/assets/images/bullseye.svg)
+    }
+    .cert {
+      background-image: url(/assets/images/cert.svg)
+    }
+    .heart {
+      background-image: url(/assets/images/heart.svg)
+    }
+    .icon-1 {
+      background-image: url(/assets/images/about/1.svg)
+    }
+    .icon-2 {
+      background-image: url(/assets/images/about/2.svg)
+    }
+    .icon-3 {
+      background-image: url(/assets/images/about/3.svg)
+    }
+    .title {
+      margin-top: 60px;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.07;
+      color: #001e36;
+    }
+    p {
+      margin-top: 20px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 1.57;
+    }
+    ul {
+      margin-top: 20px;
+      font-family: Montserrat;
+      font-size: 12px;
+      line-height: 1.57;
+      li {
+        // margin-bottom: 5px;
+        // &:last-child {
+        //   margin: 0;
+        // }
+      }
+    }
+  }
+  .tab-sections {
+    display: none;
+  }
+}

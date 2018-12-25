@@ -1,0 +1,49 @@
+#contact {
+  background-image: url(/assets/images/blog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 128px 15% 150px 15%;
+  position: relative;
+  background-attachment: fixed;
+  .text-col {
+    z-index: 2;
+    position: relative;
+    vertical-align: middle;
+    h2 {
+      color: white;
+      position: relative;
+      &:after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 80px;
+        background: white;
+        bottom: -24px;
+        left: 0;
+      }
+    }
+  }
+  .button-col {
+    position: relative;
+    z-index: 2;
+    vertical-align: text-top;
+    text-align: right;
+    a {
+      padding: 21px 64px;
+      border-radius: 100px;
+      background-color: #2196f3;
+      box-shadow: 0 0 30px 8px rgba(0, 97, 174, 0.55);
+      color: white;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all .23s ease;
+      &:hover {
+        background-color: #2185d4;
+      }
+    }
+  }
+}

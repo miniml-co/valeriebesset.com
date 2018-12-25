@@ -1,0 +1,468 @@
+@media (max-width: 1024px) {
+  #hero, #contact {
+    background-attachment: initial;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-wrapper .eight {
+    width: 60%;
+  }
+  #horaires .schedule .times-col {
+    margin-left: 20px;
+  }
+  #horaires .schedule .image-col .js-tilt {
+    width: 389px;
+    height: 440px;
+  }
+  #horaires .schedule .times-col .item ul:last-child {
+    margin-left: 30px;
+  }
+
+  #about .tile {
+    padding: 0;
+  }
+  #about .tile .icon { 
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.06);
+    .img {
+      background-size: 60%;
+    }
+  }
+  #about .tile .icon .img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: .5;
+  }
+  #about .tile .icon.selected {
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.14);
+    .img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+      opacity: 1;
+    }
+  }
+  #about .tile .title, #about .tile p, #about .tile ul  {
+    display: none;
+  }
+  #about .tab-sections {
+    display: block;
+    .tab {
+      display: none;
+      .title {
+        margin-top: 60px;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.07;
+        color: #001e36;
+      }
+      p, ul {
+        margin-top: 20px;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 1.57;
+        color: #7f8e9a;
+        max-width: 500px;
+      }
+      ul {
+        margin-left: 20px;
+      }
+    }
+    .tab-1 {
+      display: block;
+    }
+  }
+
+  #testimonials .owl-carousel .owl-stage-outer .owl-stage {
+    margin-left: -243px;
+  }
+
+  #contact {
+    padding: 80px 15% 80px 15%;
+  }
+  #contact .text-col {
+    display: none;
+  }
+  #contact .button-col {
+    width: 100%; 
+    a {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  #footer .buttons-col {
+    display: none;
+  }
+  #footer .nav-col {
+    border: none;
+    float: right;
+  }
+}
+
+@media (max-width: 414px) {
+  .float-nav {
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,.1);;
+    &:after {
+      position: absolute;
+      height: 20px;
+      width: 36px;
+      content: "";
+      top: 0;
+      right: auto;
+      left: 3%;
+      bottom: 0;
+      margin: auto;
+      background-image: url(/assets/images/logo-black.svg);
+      background-size: contain;
+    }
+    .toggle-wrapper {
+      right: 3%;
+      left: auto;
+    }
+  }
+  .menu-open {
+    .menu-toggle {
+      display: block;
+      opacity: 1;
+    }
+    .menu-links {
+      position: absolute;
+      top: 50px;
+      height: calc(100vh - 50px);
+      background: rgba(0, 0, 0, 0.871);
+      width: 100%;
+    }
+  }
+  .float-nav .menu-links ul {
+    padding: 0;
+  }
+  .float-nav .menu-links ul li {
+    display: block;
+    margin: 0;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    a {
+      font-size: 30px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+  h2:after {
+    width: 60px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+  #hero {
+    height: 677px;
+    background-attachment: initial;
+  }
+  #hero .fixed-nav {
+    display: none;
+  }
+  #hero .inner-panel {
+    width: 100%;
+    left: 0;
+    padding: 15px;
+    bottom: auto;
+    top: 225px;
+    h1 {
+      font-size: 52px;
+      line-height: 0.96;
+    }
+    h3 {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+  #hero .inner-panel .button-row {
+    margin-top: 98px;
+    a {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 30px;
+      height: 50px;
+      padding: 0;
+      line-height: 50px;
+      box-shadow: none;
+    }
+  }
+
+  #info {
+    .col-wrapper .seven, .col-wrapper .five {
+      width: 100%;
+    }
+  }
+  #info .info-col {
+    padding: 80px 6% 80px 6%;
+  }
+  #info .info-col .details {
+    margin-top: 73px;
+  }
+  #info .map-col #map {
+    height: 180px;
+  }
+  #info .map-col .map-button {
+    display: block;
+  }
+
+  #horaires {
+    padding: 80px 6%;
+  }
+  #horaires h2 {
+    text-align: left;
+  }
+  #horaires h2:after {
+    margin: 0;
+  }
+  #horaires .schedule .image-col {
+    display: none;
+  }
+  #horaires .schedule .times-col {
+    width: 100%;
+  }
+  #horaires .schedule {
+    margin-top: 73px;
+    padding: 0;
+  }
+  #horaires .schedule .times-col {
+    margin: 0;
+  }
+
+  #about {
+    padding: 80px 6%;
+  }
+  #about .tile .icon {
+    height: 90px;
+    width: 90px;
+    .img {
+      background-size: 50px;
+      background-position: center;
+    }
+  }
+
+  #photo {
+    .image-slider {
+      .item {
+        height: 300px;
+        width: 100%;
+        &:after {
+          background-color: transparent;
+        }
+        &:hover {
+          transform: scale(1,1);
+          box-shadow: 0;
+          z-index: 2;
+        }
+      }
+      .owl-nav {
+        .owl-prev, .owl-next {
+          height: 40px;
+          width: 40px;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+        .owl-prev {
+          left: 10px;
+        }
+        .owl-next {
+          right: 10px;
+        }
+      }
+      .owl-dots {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+        .owl-dot {
+          height: 6px;
+          width: 6px;
+          border-radius: 20px;
+          background-color: rgba(0, 0, 0, 0.5);
+          display: inline-block;
+          margin: 0 5px;
+        }
+        .owl-dot.active {
+          background: white;
+        }
+      }
+    }
+  }
+
+  #testimonials {
+    padding: 80px 6%;
+  }
+  #testimonials h2 {
+    text-align: left;
+    &:after {
+      margin: 0;
+    }
+  }
+  #testimonials .quote-slider .item p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  #testimonials .quote-slider .item .portrait {
+    width: 60px;
+    height: 60px;
+  }
+  #testimonials:after, #testimonials:before {
+    display: none;
+  }
+  #testimonials .quote-slider .item {
+    padding: 40px 20px 20px 20px;
+    width: 100%;
+    height: auto;
+  }
+  #testimonials .owl-carousel .owl-stage-outer .owl-stage {
+    margin-left: 0;
+  }
+  #testimonials .quote-slider {
+    margin-top: 73px;
+    .owl-nav {
+      display: none;
+    }
+    .owl-dots {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      margin-bottom: -35px;
+      .owl-dot {
+        height: 6px;
+        width: 6px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        margin: 0 5px;
+      }
+      .owl-dot.active {
+        background-color: #7b7c7c;
+      }
+    }
+  }
+
+  #contact {
+    padding: 100px 0;
+    text-align: center;
+    background-attachment: initial;
+  }
+  #contact .button-col a {
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #2196f3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    box-shadow: none;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  #services {
+    padding: 80px 6%;
+  }
+  #services h2 {
+    text-align: left;
+    &:after {
+      margin: 0;
+    }
+  }
+  #services .services-grid {
+    margin-top: 73px;
+    padding: 0;
+  }
+  #services .services-grid .item {
+    width: 100%;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  #services .services-grid .item p {
+    margin-top: 10px;
+  }
+
+  #footer {
+    padding: 80px 6% 30px 6%;
+  }
+  #footer .copywrite-col {
+    width: 100%;
+  }
+  #footer .nav-col {
+    float: none;
+    width: 100%;
+  }
+  #footer p {
+    max-width: none;
+    font-size: 14px;
+  }
+  #footer .nav-col ul {
+    margin: 0;
+    margin-top: 60px;
+  }
+  #footer .nav-col ul li {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    a {
+      padding: 0;
+    }
+  }
+  #footer .copywrite-col span {
+    color: #acb6be;
+  }
+
+  #miniml {
+    padding: 60px 10% 40px 10%;
+  }
+}
+
+@media (max-width: 320px) {
+  #hero .inner-panel {
+    top: 115px;
+  }
+  .float-nav .menu-links ul li {
+    display: block;
+    margin: 0;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    a {
+      font-size: 30px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+#services {
+  padding: 100px 0 100px 0;
+  h2 {
+    text-align: center;
+    &:after {
+      right: 0;
+      margin: auto;
+    }
+  }
+  .services-grid {
+    margin-top: 163px;
+    padding-left: 7%;
+    .item {
+      padding-right: 7%;
+      margin-bottom: 100px;
+      p {
+        margin-top: 20px;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 1.57;
+        text-align: left;
+      }
+    }
+  }
+}
