@@ -8,13 +8,7 @@
 
   // ============================================
   // Document ready
-  // ============================================
   $(function() {
-
-    
-
-
-
 
     // =====================================================
     // STARTUP METHODS
@@ -22,8 +16,6 @@
     initMap();
     setMapHeight()
     setPhotTileHeight()
-    
-
 
     // =====================================================
     // TILE TILT INIT
@@ -33,8 +25,6 @@
       maxGlare: .2,
       maxTilt: 1
     })
-    
-
 
     // =====================================================
     // SMOOTHSCROLL ANCHORS
@@ -53,8 +43,6 @@
       }
     });
 
-
-
     // =====================================================
     // ABOUT SECTION TABS
 
@@ -68,8 +56,6 @@
         $("[tab-button='"+tab+"']").addClass('selected')
       })
     })
-
-    
 
     // =====================================================
     // QUOTES SLIDER
@@ -92,8 +78,6 @@
       }
     });
 
-
-
     // =====================================================
     // IMAGE SLIDER
 
@@ -107,8 +91,6 @@
         navText: ['<img src="res/circle_arrow_left.svg">','<img src="res/circle_arrow_right.svg">'],
       });
     }
-    
-
 
     // =====================================================
     // PHOTO MODAL LIGHTBOX
@@ -119,8 +101,6 @@
       imageFadeDuration: 200,
       resizeDuration: 200
     })
-
-    
 
     // =====================================================
     // BUTTON CLICKS
@@ -154,10 +134,6 @@
       $('.float-nav').removeClass('menu-open');
     })
 
-
-
-
-
   });// end document ready
 
 
@@ -179,12 +155,6 @@
       }
     });
 
-
-
-  // ============================================
-  // Example function
-  // ============================================
-  function example() {}
 
     // dynamic map height
     function setMapHeight() {
