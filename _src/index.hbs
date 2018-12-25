@@ -1,0 +1,271 @@
+---
+title: Home
+name: home
+---
+{{#extend "base"}}
+  {{#content "content"}}
+
+
+
+    <div id="hero" data-stellar-background-ratio="0.5">
+      <div class="overlay abs-center"></div>
+      <div class="fixed-nav">
+        <a href="." class="brand">
+          <img src="/assets/images/logo.svg">
+        </a>
+        <ul>
+          <li><a class="ripple-btn smoothscroll" href="#accueil">ACCUEIL</a></li>
+          <li><a class="ripple-btn smoothscroll" href="#info">INFO</a></li>
+          <li><a class="ripple-btn smoothscroll" href="#horaires">HORAIRES</a></li>
+          <li><a class="ripple-btn smoothscroll" href="#photo">PHOTO</a></li>
+          <li><a class="ripple-btn smoothscroll" href="#services">SERVICES</a></li>
+        </ul>
+      </div>
+      <div class="inner-panel">
+        <h1>Dr. Valerie Besset</h1>
+        <h3>Médecine Générale</h3>
+        <div class="button-row">
+          <a class="ripple-btn" href="http://valeriebesset.com/rendezvous/">RENDEZ-VOUS</a>
+          <a class="ripple-btn no-margin" href="tel:0558493054">05 58 49 30 54</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="info">
+      <div class="col-wrapper">
+        <div class="col five info-col">
+          <h2 class="section-heading">Contact</h2>
+          <div class="details">
+            <div class="item">
+              <h4>Adresse</h4>
+              <a target="_blank" href="https://www.google.com/maps/place/RDV+en+ligne-Cabinet+Medical+Docteur+Besset+Valerie/@43.689354,-1.3579038,15z">
+                8 Jardin de la Belette<br>
+                3270 Avenue Charles de Gaulle<br>
+                40510 Seignosse, France
+              </a>
+            </div>
+            <div class="item">
+              <h4>Email</h4>
+              <a href="mailto:bonjour@valeriebesset.com">
+                bonjour@valeriebesset.com
+              </a>
+            </div>
+            <div class="item no-margin">
+              <h4>Téléphone</h4>
+              <a href="tel:+05 58 49 30 54">+05 58 49 30 54</a><br>
+              <a href="tel:+06 59 80 05 44">+06 59 80 05 44</a>
+            </div>
+          </div>
+        </div>
+        <div class="col seven map-col">
+          <div id="map"></div>
+          <a href="https://www.google.com/maps/place/RDV+en+ligne-Cabinet+Medical+Docteur+Besset+Valerie/@43.689354,-1.3579038,15z" class="map-button">ouvrire le plan</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="horaires">
+      <div class="main-layout">
+        <h2 class="section-heading">Nos Horaires</h2>
+        <div class="col-wrapper schedule">
+          <div class="col eight image-col">
+            <div class="js-tilt"></div>
+          </div>
+          <div class="col four times-col">
+            <div class="item">
+              <h4>Sans rendez-vous</h4>
+              <p>8h a 10h du Lundi au Vendredi</p>
+            </div>
+            <div class="item">
+              <h4>Horaires</h4>
+              <ul>
+                <li>Lundi</li>
+                <li>Mardi</li>
+                <li>Mercredi</li>
+                <li>Jeudi</li>
+                <li>Vendredi</li>
+                <li>Samedi</li>
+                <li>Dimanche</li>
+              </ul>
+              <ul id="google-hours">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="services">
+      <h2 class="section-heading">Nos Services</h2>
+      <div class="col-wrapper services-grid">
+        <div class="col four item">
+          <h4>Medecine General</h4>
+          <p>Médecine chronique et aigue du nouveau né à la personne agée. Accueil des personnes à mobilité réduite. Visite à domicile et en maison de retraite.</p>
+        </div>
+        <div class="col four item">
+          <h4>Urgence</h4>
+          <p>Traumatologie, entorse, fractures, méningites, appendicites. Infarctus du myocarde, embolie pulmonaire, pancréatite, pyelonéphrite, cholécystite. Sutures et attelles.</p>
+        </div>
+        <div class="col four item no-margin">
+          <h4>Gynecologie</h4>
+          <p>Suivi gynécologique généraliste pour contraception, grossesse et ménopause.</p>
+        </div>
+        <div class="col four item">
+          <h4>Esthetique</h4>
+          <p>Injection acide hyaluronique selon une approche de réequilibrage morpholoqique du visage.</p>
+        </div>        
+        <div class="col four item">
+          <h4>Micronutrition</h4>
+          <p>Etudes des états: acides/bases, inflammatoires, oxydatifs, fatigue chroniques et immunitaire. Phytotherapie et micro éléments. Amaigrissement et reprise de confiance.</p>
+        </div>        
+        <div class="col four item no-margin">
+          <h4>Ayurveda</h4>
+          <p>L'Ayurveda enseigne les habitudes de vie qui aligne votre rythme individuel ou vos fonctions physiologiques avec le rythme cyclique de la nature.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="photo">
+      <div class="col-wrapper image-slider owl-theme">
+        <a href="/assets/images/gallery/1.jpg" data-lightbox="album" class="col four item photos-1"></a>
+        <a href="/assets/images/gallery/2.jpg" data-lightbox="album" class="col four item photos-2"></a>
+        <a href="/assets/images/gallery/3.jpg" data-lightbox="album" class="col four item photos-3"></a>
+        <a href="/assets/images/gallery/4.jpg" data-lightbox="album" class="col four item photos-4"></a>
+        <a href="/assets/images/gallery/5.jpg" data-lightbox="album" class="col four item photos-5"></a>
+        <a href="/assets/images/gallery/6.jpg" data-lightbox="album" class="col four item photos-6"></a>
+        <a href="/assets/images/gallery/7.jpg" data-lightbox="album" class="col four item photos-7"></a>
+        <a href="/assets/images/gallery/8.jpg" data-lightbox="album" class="col four item photos-8"></a>
+        <a href="/assets/images/gallery/9.jpg" data-lightbox="album" class="col four item photos-9"></a>
+      </div>
+    </div>
+    
+    <div id="testimonials">
+      <div class="main-layout">
+        <h2 class="section-heading">Ce Qu’ils Disent</h2>
+        <div class="quote-slider owl-carousel owl-theme">
+          <div class="item">
+            <div class="portrait alibert"></div>
+            <p>"Le docteur Besset allie médecine moderne et médecine traditionnelle indienne. Un médecin qui a des solutions à proposer en parallèle des médicaments. Une personne à l'écoute, attentive et bienveillante."</p>
+            <div>- Charlotte Alibert</div>
+          </div>
+          <div class="item">
+            <div class="portrait avatar"></div>
+            <p>"Docteur Besset est très proffessionelle et passe le temps qu'il faudra pour arriver un a un diagnostique concluant"</p>
+            <div>- Stéphanie Castandet</div>
+          </div>
+          <div class="item">
+            <div class="portrait avatar"></div>
+            <p>"Quand on reprend plaisir a aller chez le médecin.un médecin consciencieux qui ausculte encore ses patients avec un excellent diagnostique, et de surcroit d une grande humanité."</p>
+            <div>- Christophe Osmond</div>
+          </div>
+          <div class="item">
+            <div class="portrait avatar"></div>
+            <p>"En vacances à Seignosse à proximité du cabinet... pris 2 rdv sur le site de rdv en ligne, très pratique. Elle est très sympathique, prend le temps avec Les patients, douce avec les enfants... je recommande"</p>
+            <div>- Audrey Staud</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="contact" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-300">
+      <div class="overlay abs-center"></div>
+      <div class="col-wrapper">
+        <div class="col seven text-col">
+          <h2>Visitez moi sur mon<br>blog personal</h2>
+        </div>
+        <div class="col five button-col">
+          <a href="http://blog.valeriebesset.com" target="_blank">VISITEZ LE BLOG</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="about">
+      <div class="col-wrapper">
+        <div class="col four tile">
+          <div class="icon selected" tab-button="1">
+            <div class="img icon-1"></div>
+          </div>
+          <div class="title">Communication</div>
+          <p>Je travaille en coopération avec les hôpitaux de Dax et Bayonne ainsi que les spécialistes de Capbreton à Saint Vincent de Tyrosse pour mieux répondre aux urgences et assurer une pleine efficacité.</p>
+        </div>
+        <div class="col four tile">
+          <div class="icon" tab-button="2">
+            <div class="img icon-2"></div>
+          </div>
+          <div class="title">Education</div>
+          <ul>
+            <li>Diplome de medecin généraliste<br>de l'Universite de Reims</li>
+            <li>Diplome de medecin: MD in USA</li>
+            <li>Diplome de l'Institut Européen de<br>Physionutrition de Nice</li>
+            <li>Master de pharmacologie de l'Université de Reims</li>
+            <li>Diplome Universitaire de Nutrition de Rennes</li>
+          </ul>
+        </div>
+        <div class="col four tile">
+          <div class="icon" tab-button="3">
+            <div class="img icon-3"></div>
+          </div>
+          <div class="title">Valeurs</div>
+          <p>Respect de lindividu, confidentialité des diagnostiques et prescriptions, efficacité et rapidité de la réponse téléphonique faite en personne par le Médecin Traitant.</p>
+        </div>
+      </div>
+      <div class="tab-sections">
+        <div class="tab tab-1">
+          <div class="title">Objectif</div>
+          <p>Je travaille en coopération avec les hôpitaux de Dax et Bayonne ainsi que les spécialistes de Capbreton à Saint Vincent de Tyrosse pour mieux répondre aux urgences et assurer une pleine efficacité.</p>
+        </div>
+        <div class="tab tab-2">
+          <div class="title">Education</div>
+          <ul>
+            <li>Diplome de medecin généraliste<br>de l'Universite de Reims</li>
+            <li>Diplome de medecin: MD in USA</li>
+            <li>Diplome de l'Institut Européen de<br>Physionutrition de Nice</li>
+            <li>Master de pharmacologie de l'Université de Reims</li>
+            <li>Diplome Universitaire de Nutrition de Rennes</li>
+          </ul>
+        </div>
+        <div class="tab tab-3">
+          <div class="title">Valeurs</div>
+          <p>Respect de lindividu, confidentialité des diagnostiques et prescriptions, efficacité et rapidité de la réponse téléphonique faite en personne par le Médecin Traitant.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <div class="col-wrapper">
+        <div class="col four copywrite-col">
+          <h4>Dr. Valerie Besset</h4>
+          <span>&copy; 2018</span>
+          <p>Paiements: chèques ou espèces.<br>Carte vitale, conventionne secteur 1 pour la médecine générale, honoraires libres pour la Nutrition. Consultation à distance me contacter sur bonjour@valeriebesset.com</p>
+        </div>
+        <div class="col four nav-col">
+          <ul>
+            <li><a class="smoothscroll" href="#accueil">ACCUEIL</a></li>
+            <li><a class="smoothscroll" href="#info">INFO</a></li>
+            <li><a class="smoothscroll" href="#horaires">HORAIRES</a></li>
+            <li><a class="smoothscroll" href="#photo">PHOTO</a></li>
+            <li><a class="smoothscroll" href="#services">SERVICES</a></li>
+          </ul>
+        </div>
+        <div class="col four buttons-col">
+          <a href="http://valeriebesset.com/rendezvous/">RENDEZ-VOUS</a>
+          <a href="tel:0558493054">05 58 49 30 54</a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="miniml">
+      <a target="_blank" href="http://miniml.co"><img src="/assets/images/miniml.svg"></a>
+    </div>
+
+
+
+  {{/content}}
+{{/extend}}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="heart" transform="translate(-40.000000, -40.000000)">
+            <g id="Group-2" transform="translate(40.000000, 40.000000)">
+                <g id="Group">
+                    <g id="c-link" fill-rule="nonzero" fill="#4FB6FF">
+                        <circle id="c" cx="60" cy="60" r="60"></circle>
+                    </g>
+                    <circle id="Oval" stroke="#0467D1" stroke-width="10" cx="60" cy="60" r="55"></circle>
+                </g>
+                <path d="M59.939,37.836 C68.592,29.183 82.521,29.183 91.113,37.775 C99.704,46.366 99.704,60.295 91.113,68.887 L60,100 C49.4806335,89.519369 38.9619668,79.0380356 28.444,68.556 C19.852,59.965 19.852,46.036 28.444,37.444 C37.035,28.852 50.964,28.852 59.556,37.444 C59.686,37.574 59.813,37.704 59.939,37.836 L59.939,37.836 Z" id="Shape" fill="#79D2FF" fill-rule="nonzero"></path>
+                <path d="M70.577,31.912 C77.738,30.248 85.546,32.208 91.113,37.775 C99.704,46.366 99.704,60.295 91.113,68.887 L60,100 C58.258,98.265 56.589,96.6 54.99,95.01 L81.113,68.887 C89.704,60.296 89.704,46.367 81.113,37.775 C78.2198571,34.8718954 74.5690557,32.8403228 70.577,31.912 Z" id="Shape" fill="#2196F3" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

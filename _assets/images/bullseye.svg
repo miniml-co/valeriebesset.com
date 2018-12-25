@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="120px" viewBox="0 0 130 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bullseye" transform="translate(-40.000000, -40.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(40.000000, 40.000000)">
+                <circle id="Oval" fill="#2196F3" cx="60" cy="60" r="60"></circle>
+                <circle id="Oval" fill="#4FB6FF" cx="60" cy="60" r="40"></circle>
+                <circle id="Oval" fill="#79D2FF" cx="60" cy="60" r="20"></circle>
+                <path d="M62.5,58 L130,58 L130,63 L62.5,63 C61.1192881,63 60,61.8807119 60,60.5 C60,59.1192881 61.1192881,58 62.5,58 L62.5,58 Z" id="Shape" fill="#0030AB"></path>
+                <path d="M112,49 L130,49 L125,58 L107,58 L112,49 Z M125,63 L107,63 L112,72 L130,72 L125,63 Z" id="Shape" fill="#0467D1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
