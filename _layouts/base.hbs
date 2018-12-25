@@ -43,15 +43,17 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
   </head>
 
-  <body id="{{ page.name }}">
+  <body>
 
-    {{> page-loader}}
+    {{> page-loader }}
 
-    {{> nav}}
+    {{> nav }}
 
     <main>
       {{{ block "content" }}}
     </main>
+
+    {{> footer }}
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWoXv1GLL84gdw1BaKsBbh6scki-1oJ-M&libraries=places&language=fr"></script>
